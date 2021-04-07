@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Varela+Round&display=swap');
+
+body {
+    font-family: "Varela Round";
+    min-width: 1000px;
+}
+
+.clicky {
+    height: 250px;
+    width: 250px;
+    border: 1px solid grey;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    background-color: white;
+    height:250px;
+    width:250px;
+    border: 1px solid black;
+    margin: 200px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-display {
+    margin-top: 60px;
+    width: 85%;
+    text-align: left;
+    margin: 35px auto;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+
+.form-format {
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+}
+
+.tags-display {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    font-size: 1.1em;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+textarea{
+    resize:none;
+}
+
+.body {
+    height: 140px;
+    width: 210px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    font-size: 1.1em;
+}
+
+#send-body {
+    margin-top:10px;
+}
+
+#send-to {
+    margin-bottom: 3px;
+}
+
+form {
+    margin: auto;
+}
+
+.textarea-tags {
+    width:210px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.r {
+    background-color: #ffe3de;
+}
+
+.y {
+    background-color: #faff94;
+}
+
+.g {
+    background-color: #defaea;
+}
+
+.p {
+    background-color: #f9e6fa;
+}
+
+.b {
+    background-color: #bcc7f7;
+}
+
+input[type="submit"] {
+    background-color: white;
+    border: 1px solid grey;
+    font-family: "Quicksand";
+    font-size: 1em;
+}
+
+li input[type="submit"] {
+    background-color: #ebebeb;
+}
+
+#sign-in {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+ a, a:visited {
+     color: black;
+ }
+
+ textarea {
+     font-family: "Varela Round";
+ }
+
+ /* nav */
+ li {
+    display: inline-block;
+    margin-left: 1em;
+    padding-top: 1.9em;
+    
+}
+
+ul {
+    list-style: none;
+    display:inline-block;
+    margin-right: 1em;
+}
+
+h1 {
+    display: inline-block;
+    font-family: "Quicksand";
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    font-family: "Quicksand";
+    color: black;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.eez {
+    color: #bcc7f7;
+}
+
+.eez:visited {
+    color: #bcc7f7;
+}
+
+.nav-submit {
+    font-size: .2em
+}
+
+#not-a-member {
+    font-size: .8em;
+}
+
+.sign-in-div {
+    font-family: "Quicksand";
+}
+
+#chat-div {
+    height: 250px;
+    width: 250px;
+    border: 1px solid grey;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    background-color: white;
+    display: none;
+}
+
+#chat-x {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-left: .2em;
+    padding-right: .2em;
+    background: white;
+    margin: 0;
+}
+
+#messages {
+    padding: initial;
+    margin: 7px 5px 5px 5px;
+    width: 95%;
+    height: 82%;
+    overflow-y: scroll;
+    /* word-break: break-all; */
+    border: 1px solid black;
+}
+
+#chatli {
+    display: block;
+    padding: initial;
+    margin: initial;
+    margin-left: 2px;
+}
+
+#form {
+    position: absolute;
+    bottom: 5px;
+    left: 5px
+}
+
+#chat-button {
+    font-family: "Quicksand";
+    border: 1px solid grey;
+}
+
+#input {
+    width: 180px;
+}
